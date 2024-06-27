@@ -9,4 +9,6 @@ import com.infy.infyinterns.entity.Mentor;
 public interface MentorRepository extends JpaRepository<Mentor, Integer>
 {
   List<Mentor> findByNumberOfProjectsMentored(Integer numberOfProjectsMentored);
+
+  
 }
